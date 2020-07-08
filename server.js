@@ -1,6 +1,8 @@
 const express = require("express");
 const mongoose = require("mongoose");
 
+const MONGO_URI = "mongodb://<fitness1>:<fitnesspass1>@ds153719.mlab.com:53719/heroku_nfg918z4"
+
 const PORT = process.env.PORT || 8080;
 
 const app = express();
